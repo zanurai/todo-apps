@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-apps2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="nav-logo">
+                    <h2>TODO APP</h2>
+                </div>
+                <input type="search" class="search" id="searchbox" placeholder="search"></input>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="head">
+                <div class="top-head">
+                    <h1>Welcom to ToDo apps Application list</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="tasks">
+
+        <section>
+            <div class="container">
+                <div class="input-task">
+                    <input type="text" class="TEXT" id="taskinput" placeholder="Enter the text"></input>
+                    <input type="hidden" id="savetask">
+                    <button type="task" class="ADD-task" id="addtask">Add-task</button>
+                    <button type="task" class="ADD-task" id="saveindex" style="display:none;">Save-task</button>
+                    <button type="task" class="deletes" id="deletes">Delete all</button>
+                </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="table">
+                    <div class="table-td">
+                        <div id="table3">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td><button type="button" class="text-primary">
+                                        <i class="fa fa-edit">Edit</i></button></td>
+                                <td><button type="button" class="text-danger">
+                                        <i class="fa fa-trash">Delete</i></button></td>
+                            </tr>
+                        </div>
+                        <!--div class="table-1">
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Dummy Task</td>
+                                <td><button type="button" class="text-primary">
+                                        <i class="fa fa-edit">Edit</i></button></td>
+                                <td><button type="button" class="text-danger">
+                                        <i class="fa fa-trash">Delete</i></button></td>
+                            </tr>
+                        </div>
+                        <div class="table-2">
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Dummy Task</td>
+                                <td><button type="button" class="text-primary">
+                                        <i class="fa fa-edit">Edit</i></button></td>
+                                <td><button type="button" class="text-danger">
+                                        <i class="fa fa-trash">Delete</i></button></td>
+                            </tr>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src=" myscript.js "></script>
+</body>
+
+</html>
